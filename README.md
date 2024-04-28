@@ -1,4 +1,4 @@
 # Practice
-This is a try out repository
-For a simple project.
+This repository contains all work I did in the Responsive web design on free code camp.
+
 
