@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>All-night Workshop Survey Form</title>
+    <link rel="stylesheet" href="surveyFormStyles.css">
+</head>
+<body>
+    <h1 id="title">WORKSHOP SURVEY FORM</h1>
+    <p id="description">Thank you for taking the time to fill this survey form.</p>
+    <form id="survey-form">
+        <fieldset>
+       <label id="name-label" for="name">Name
+        <input id="name" type="text" placeholder="Please enter your name" required>
+       </label> 
+
+       <label id="email-label" for="email">Email Address
+        <input id="email" type="email" placeholder="Please enter your email" required>
+       </label> 
+       
+       <label id="number-label" for="number">Age
+        <input id="number" type="number" min="15" max="30" placeholder="Enter your age" required>
+       </label> 
+
+       <select id="dropdown" name="gender">
+        <option disabled selected>Select your gender</option>
+        <option value="male" >Male</option>
+        <option value="female" >Female</option>
+       </select>
+    </fieldset>
+          
+    <fieldset>
+        <p>Which subministry do you belong to?</p>
+        <label for="social-media"><input type="radio" name="sub-ministry" id="social-media" value="social-media"> Social Media </label>
+        <label for="graphic-design">
+           <input type="radio" name="sub-ministry" id="graphic-design" value="graphic-design"> Graphic Design
+        </label>
+        <label for="projection">
+           <input type="radio" name="sub-ministry" id="projection"value="projection"> Projection
+        </label>
+        <label for="photo-video">
+            <input type="radio" name="sub-ministry" id="photo-video" value="photography-videography">  Photography and Videography
+         </label>
+         <label for="database">
+            <input type="radio" name="sub-ministry" id="database" value="database-frontdesk"> Database and Frontdesk
+         </label>
+        </fieldset>
+
+         <fieldset>
+         <p>What was your favorite part of the workshop?</p>
+       <label> <input type="checkbox" value="recess" name="section" class="recess"> Refreshment</label>
+       <label> <input type="checkbox" value="presentations" name="section" class="presentation"> Presentation </label>
+       <label> <input type="checkbox" value="practicals" name="section" class="practicals"> Practicals </label>
+        </fieldset>
+
+       <fieldset>
+         <p>Any Comments and suggestions.Kindly Add them below:</p>
+        <textarea id="" name="" class="" placeholder="Comments and Suggestions" value=""></textarea>
+    </fieldset>
+        
+<button id="submit" type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
